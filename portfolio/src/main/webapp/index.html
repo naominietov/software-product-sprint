@@ -1,18 +1,82 @@
+<!-- 
+MAIN HTML
+command week 1: teachme ~/software-product-sprint/walkthroughs/week-1-web-development/portfolio-walkthrough.md
+command week 2: teachme ~/software-product-sprint/walkthroughs/week-2-server/project-1-walkthrough.md
+portfolio : cd \ ~/software-product-sprint/portfolio
+execute: mvn package exec:java
+href="https://github.com/naominietov"
+href="https://www.linkedin.com/in/naominietov"
+-->
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
   <head>
     <meta charset="UTF-8">
-    <title>My Portfolio</title>
+    <title> Naomi's Portfolio </title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.js"> </script>
   </head>
-  <body>
+
+  <!--Background color --><body bgcolor="#ffd9da">
     <div id="content">
-      <h1>My Portfolio</h1>
-      <p>This is my portfolio.</p>
-      <p>Click <a href="/hello">here</a> to see content created by server code.</p>
-      <p>Click here to get a random message:</p>
-      <button onclick="addRandomGreeting()">Hello</button>
+
+    <h1 style="background-color:#89023e; font-family:helvetica; color:white; text-align:center;"> 
+        Naomi's Portfolio &#128105;&#127995;&#8205;&#128187;
+        </h1>
+        <p style="font-family:helvetica; text-align:left; color:#30343f;"> 
+        Hi! Welcome to my portfolio &#128513;
+        </p>
+    <h3 style="background-color:#ea638c; font-family:helvetica; color:white; text-align:center;"> 
+        About me 
+        </h3>
+        <p style="font-family:helvetica; text-align:left; color:#30343f;"> 
+        My name is Naomi. I am from Queretaro, Mexico. I am currently studying the fourth semester in Robotics and Digital Systems Engineering 
+        at Tecnológico de Monterrey Campus Querétaro. My hobbies are listening to music and learn new languages.
+        I am happy of being part of the Google SPS Program and I hope to learn new things and make new friends.
+        </p>
+    <h3 style="background-color:#ea638c; font-family:helvetica; color:white; text-align:center;"> 
+        My background 
+        </h3>
+    <h4 style="background-color:#007ea7; font-family:helvetica; color:white; text-align:left;">
+        Coding languages 💻
+        </h4>
+        <p> 
+        <ul style="list-style-type:disc; font-family: arial;color:#30343f;text-align:left;">
+        <li>C++</li>
+        <li>VHDL</li>
+        <li>Python</li>
+        <li>R</li>
+        <li>Learning Java and HTML...</li>
+        </p>
+
+
+    <h4 style="background-color:#007ea7; font-family:helvetica; color:white; text-align:left;">
+        Software 💻 
+    </h4>
+        <p>
+        <ul style="list-style-type:disc; font-family: arial;color:#30343f;text-align:left;">
+        <li>Xcode</li>
+        <li>MATLAB</li>
+        <li>Intel Quartus Prime</li>
+        <li>Visual Studio Code</li>
+        </p>
+
+    <h3 style="background-color:#ea638c; font-family:helvetica; color:white; text-align:center;"> 
+        My projects 
+    </h3>
+        <h5> Math Helper</h5>
+        <p style="font-family:helvetica; text-align:left; color:#30343f;"> 
+           Created a program in Python that provided math problems for middle-school students with the aim of helping them to improve their mathematical skills.
+        </p>
+
+    <h3 style="background-color:#ea638c; font-family:helvetica; color:white; text-align:center;"> 
+        Contact information
+    </h3>
+        <ul style="list-style-type:disc; font-family: arial;color:#30343f;text-align:left;">
+        <li>Phone: +52 (442) 790-5383</li>
+        <li>LinkedIn: https://www.linkedin.com/in/naominietov</li>
+        <li>GitHub: https://github.com/naominietov</li>
+
+      <button onclick="addRandomGreeting()">Random Fact About Me</button>
       <div id="greeting-container"></div>
     </div>
   </body>

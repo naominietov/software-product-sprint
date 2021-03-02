@@ -4,6 +4,23 @@
   width: 650px;
 }
 
+#logoGithub {
+  background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.kindpng.com%2Ffree%2Fgithub-logo%2F&psig=AOvVaw3bV-Q6d9XDFunsCbunCSE_&ust=1614742641843000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOjet6HXkO8CFQAAAAAdAAAAABAD);
+  display: block;
+  margin: 0 auto;
+  text-indent: -9999px;
+  width: 981px;
+  height: 180px;
+}
+
+#logoLinkedin {
+  background-image: url(images/logo.png);
+  display: block;
+  margin: 0 auto;
+  text-indent: -9999px;
+  width: 981px;
+  height: 180px;
+}
 #greeting-container {
   margin-top: 20px;
 }
