@@ -27,7 +27,7 @@ public class PageViewServlet extends HttpServlet {
   private int pageViews = 0;
 
   @Override
-  public void doGet(final HttpServletRequest request, final HttpServletResponse response) throws IOException {
+  public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
     pageViews++;
 
     response.setContentType("text/html;");
