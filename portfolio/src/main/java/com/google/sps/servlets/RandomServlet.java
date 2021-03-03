@@ -21,7 +21,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /** Servlet that returns HTML that contains the page view count. */
-@WebServlet("/index.html")
+@WebServlet("https://nnietovega-sps-spring21.uc.r.appspot.com/")
 public class RandomServlet extends HttpServlet {
 
   private int pageViews = 0;
@@ -31,7 +31,7 @@ public class RandomServlet extends HttpServlet {
     pageViews++;
 
     response.setContentType("text/html;");
-    response.getWriter().println("<h1> hello world naomi</h1>");
+    response.getWriter().System.Out.println("<h1> hello world naomi</h1>");
     response.getWriter().println("<h1> it works/h1>");
     
   }
