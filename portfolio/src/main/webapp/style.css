@@ -9,8 +9,9 @@
 }
 h1 {
     color:white;
+    padding: 12px 30px;
     border-radius: 12px;
-    background-color:#89023e;
+    background-color:#5d97d1; /* #ff5d8f rosa // azul nuevo=00b4d8// azul antiguo=779be7*/
     font-family:"karla";
     text-align:center;
 }
@@ -24,7 +25,7 @@ h3 {
     /*width:250px;*/
     border-radius: 12px;
     padding: 12px 30px;
-    background-color:#ea638c; 
+    background-color:#00b4d8; /* #ea638c */
     font-size:larger;
     font-family:"karla"; 
     color:white; 
@@ -53,10 +54,10 @@ ul {
     color:#30343f;
     text-align:left;
 }
-a:link, a:visited {
+#boton:link, #boton:visited {
   font-family: "karla";
   border-radius: 4px;
-  background-color: #ff74d4;
+  background-color: #9ac4f8;
   color: white;
   padding: 14px 25px;
   text-align: center;
@@ -64,8 +65,8 @@ a:link, a:visited {
   display: inline-block;
 }
 
-a:hover, a:active {
+#boton:hover, #boton:active {
   font-family: "karla";
   border-radius: 4px;
-  background-color: #ff36ab;
+  background-color: #779be7;
 }
