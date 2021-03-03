@@ -21,17 +21,14 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /** Servlet that returns HTML that contains the page view count. */
-@WebServlet("https://nnietovega-sps-spring21.uc.r.appspot.com/")
+@WebServlet("/page-views")
 public class RandomServlet extends HttpServlet {
 
-  private int pageViews = 0;
-
   @Override
-  public void doGet(final HttpServletRequest request, final HttpServletResponse response) throws IOException {
-    pageViews++;
+  public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
 
     response.setContentType("text/html;");
-    response.getWriter().System.Out.println("<h1> hello world naomi</h1>");
+    response.getWriter().println("<h1> hello world naomi</h1>");
     response.getWriter().println("<h1> it works/h1>");
     
   }
