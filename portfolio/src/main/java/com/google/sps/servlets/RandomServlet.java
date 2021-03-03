@@ -21,8 +21,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /** Servlet that returns HTML that contains the page view count. */
-@WebServlet("/page-views")
-public class PageViewServlet extends HttpServlet {
+@WebServlet("/index.html")
+public class RandomServlet extends HttpServlet {
 
   private int pageViews = 0;
 
@@ -31,7 +31,8 @@ public class PageViewServlet extends HttpServlet {
     pageViews++;
 
     response.setContentType("text/html;");
-    response.getWriter().println("<h1>Page Views</h1>");
-    response.getWriter().println("<p>This page has been viewed " + pageViews + " times.</p>");
+    response.getWriter().println("<h1> hello world naomi</h1>");
+    response.getWriter().println("<h1> it works/h1>");
+    
   }
 }
