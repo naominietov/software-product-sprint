@@ -29,7 +29,7 @@ public class RandomServlet extends HttpServlet {
 
     response.setContentType("text/html;");
     response.getWriter().println("<h1> hello world naomi</h1>");
-    response.getWriter().println("<h1> it works/h1>");
+    response.getWriter().println("<h1> hola mundo </h1>");
     
   }
 }
