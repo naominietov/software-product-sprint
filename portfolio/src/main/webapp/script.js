@@ -37,11 +37,29 @@ async function showServerTime() {
   dateContainer.innerText = textFromResponse;
 }
 
-async function addRandomString() {
+async function getRandomString() {
+    
   const responseFromServer = await fetch('/string');
+  console.log("Fetch funcionó correctamente");
   const textFromResponse = await responseFromServer.text();
 
-  const dateContainer = document.getElementById('string-container');
-  dateContainer.innerText = textFromResponse;
+  const strings = document.getElementById('string');
+  strings.innerText = textFromResponse;
+
+  // The json() function returns an object that contains fields that we can
+  // reference to create HTML.
+  const str = await responseFromServer.json();
+
+  const statsListElement = document.getElementById('string');
+  statsListElement.innerHTML = '';
+
+  statsListElement.appendChild(str.json1);
+  statsListElement.appendChild(str.json2);
+  statsListElement.appendChild(str.json3);
+
+  var a = Math.floor(Math.random() * statsListElement.length);
+
+  console.log(statsListElement[a]);
+
 }
 
