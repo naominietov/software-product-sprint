@@ -38,10 +38,12 @@ async function showServerTime() {
 }
 
 async function addRandomString() {
-  const responseFromServer = await fetch('/string');
-  const textFromResponse = await responseFromServer.text();
+  const responseFromServer = await fetch('/string-nao');
+  const stats = await responseFromServer.json();
 
-  const dateContainer = document.getElementById('string-container');
-  dateContainer.innerText = textFromResponse;
+  const strings = stats[Math.floor(Math.random()*stats.length)]
+  
+  const statsListElement = document.getElementById('string-container');
+  statsListElement.innerText = strings;
 }
 
