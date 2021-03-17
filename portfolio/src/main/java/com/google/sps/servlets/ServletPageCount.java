@@ -22,7 +22,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /** Servlet that returns HTML that contains the page view count. */
 @WebServlet("/page-views")
-public class RandomServlet extends HttpServlet {
+public class ServletPageCount extends HttpServlet {
 
   @Override
   public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {

@@ -1,31 +1,35 @@
 package com.google.sps.servlets;
 
+import java.util.ArrayList; // import the ArrayList class
+//import com.google.sps.data.ServerStats;
+import com.google.gson.Gson;
 import java.io.IOException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/** Servlet that shows a random string */
-@WebServlet("/string")
+/** Servlet that responds with the current date. */
+@WebServlet("/string-nao")
+
 public class RandomStringServlet extends HttpServlet {
   @Override
   public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-    String string1 = "My favorite movie is the notebook";
-    String string2 = "I like chocolate";
-    String string3 = "My favorite song is mirrors by justin timberlake";
 
-    //String str = [string1, string2, string3];
-    //String string = new String(String1, String2, String3);
-     String json = convertToJson(string1);
-     String json1 = convertToJson(string2);
-     String json2 = convertToJson(string3);
 
-    // Send the JSON as the response
-    response.setContentType("application/json;");
+    ArrayList<String> str = new ArrayList<String>();
+    str.add("My favorite movie is the notebook");
+    str.add("My favorite icecream is vanilla");
+    str.add("I like playing voleyball");
+
+    String json = convertToJsonUsingGson(str);
     response.getWriter().println(json);
-    response.getWriter().println(json1);
-    response.getWriter().println(json2);
+  }
+
+  private String convertToJsonUsingGson(ArrayList<String> str) {
+    Gson gson = new Gson();
+    String json = gson.toJson(str);
+    return json;
   }
 
   private String convertToJson(String strings) {
