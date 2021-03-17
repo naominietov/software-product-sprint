@@ -28,7 +28,7 @@ public class RandomStringServlet extends HttpServlet {
 
   private String convertToJsonUsingGson(str) {
     Gson gson = new Gson();
-    String json = gson.toJson(serverStats);
+    String json = gson.toJson(str);
     return json;
   }
 }
