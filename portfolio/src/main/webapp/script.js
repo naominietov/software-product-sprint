@@ -45,5 +45,6 @@ async function addRandomString() {
   
   const statsListElement = document.getElementById('string-container');
   statsListElement.innerText = strings;
+
 }
 
