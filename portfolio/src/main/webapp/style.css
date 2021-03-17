@@ -70,3 +70,18 @@ ul {
   border-radius: 4px;
   background-color: #779be7;
 }
+
+.btn {
+  font-family: "karla";
+  border-radius: 4px;
+  border: 2px solid white;
+  background-color: #779be7;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.info {
+  border-color: white;
+  color: white
+}
