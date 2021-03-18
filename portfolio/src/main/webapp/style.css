@@ -7,6 +7,7 @@
 #greeting-container {
   margin-top: 50px;
 }
+
 h1 {
     color:white;
     padding: 12px 30px;
@@ -84,4 +85,43 @@ ul {
 .info {
   border-color: white;
   color: white
+}
+
+.myDiv {
+  text-align: center;
+}
+
+.btn-group .button1 {
+  background-color: #9f9fed;
+  border: none;
+  color: white;
+  border: 5px #662e9b;
+  padding: 14px 25px;
+  /*border-radius: 4px;*/
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-family: "karla";
+  font-size: 16px;
+  /* margin: 4px 2px; */
+  cursor: pointer;
+  /*float: left;*/
+}
+
+.btn-group .button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+.button3 {
+  background-color: #7fb800;
+  border: none;
+  color: white;
+  padding: 14px 25px;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "karla";
+  font-size: 16px;
+  cursor: pointer;
 }
