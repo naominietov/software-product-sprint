@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "nnietovega-sps-spring21",
+  "private_key_id": "bf801e9b1ce612525adfe3c9f9ee1676048023b7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCx44IFSGlYF2aV\nBzw7mdKHNOcTZxi0MI/VDiUYtnrYb1WngDDEdyEZkJRdAhsrP1WkuIC4718phqc9\n/aa+F0tRSYNYbK//QcsMEeGueihLNFlfzJu9GsSbFXyhiX/pXElNaSxZ5EcJK2V7\nZRjxXvHzJBLpIJRy/N3i+Ry4jXowNU86UMhEH7GWbYl2Vn6g2aZXTw5wNM6+6+C/\nesJrCqinKXLjuWUydsDpzwQPnYWC128E1u+6dtP1m3fJ4MfhP+C2wl1keZw0nPfX\nsepGbE3T8phaiqTga1LBLzbavhZXWA+L6mLlPFT2K1UxixiK3ov1T0LWam4S2P+r\ncpO0/rAPAgMBAAECggEAUv9Mz00xRXYpmRfWnRJQfWAL/mwIRS4xNZ1TZpvhZjFP\n/AZd+pSAn45rApg0d/GlcmTZPjAFLPlT96Ls1N1GeWc8vpl7ZjPa2kdPjloVib0j\nhASRl2IxYBBe5XmjcgxqcRFEra5KDHewcinBwQBlD+YBYr8eNCZSGo/TPDJaU7oL\nmlbYK0uj/69CVp/n5fR7dOgD24iGwOdSd1kvCxEF8JurUq1Aq1SEJnN3rgNtFiPH\n+cGuSC9zyv5YAnm8I/OzknT3NS0q1Hz9HmiyTiOkq4E0hPgBNdatvZ8oLO4OE6HA\ncYlSDvQnFtVk0TSExn99Zcj2NvxQVpzuqyvn+XPXwQKBgQDr4esJ6h2QYVxhmAf+\nTxmS16b05tLOlqHXjlhmHtV3GDqOkDdUG3wvBUKV2dVBgTewz/8e7ezLijHocTlq\nDFdS/MGOOkBJC//o8pzWfmMPDbvn1yCdXSzEpC0VpJk8B9p0OfJnG3SoUbmGUNcy\nhGazT1Ed9xTti+IuIMJ5Cnv4wQKBgQDBD2WRUyyNn8ju2tngchBNn5WKZsXzCNry\nWenu2sbi0jgpWP/ktDo9ix7IhmfHncUur6pmhQSaBChAuHigv7UMPtcBcEmXh1Z2\nkXq55i9KOeWp1+wyxeIxVJZ7aZsSaj/h3JayueaAFwjadKPssp9ykHK5+y35bijJ\nE502DXeMzwKBgQDlfJY+vxakMRS/njmooSwwQL6d5TOS6dnq7QHz2Gu1wky2BnjN\nyy+2T1fIknV3lU+pJbL/VFrca0bC7eT916PdiSqGRQXmC1aeO+t6gtu8+Y+mrxV8\nA/paFaAHPmwWi01tZjL/PSbx2xC0LFIxQ77nFHPGw2wI797NIfIR8LFMAQKBgQCa\nmLm8pd4HiuxcWOQf1zc28ZPOQH5DH9Q0PcwWeRrKh4xxj9NaUPhSUBVWfkqcjrpX\nqFPLxLjqnGmfahkuoFVaePezLze/H6EdUWH1e15jEfnXCBEcl1mKJzJZoTeMh4ig\nVQRYGoV6DPgJ911NLbyBASrdw0YNdykx24MIxb/2AQKBgDL3ubj3lrRbDaOQscXI\nkoiPgCzSGz6xwuNYpx8gEYHQeQo6aGo73mykequPmWsKrUuI7bOmIkgjffu0Z4r4\nrifK/Z7C6UfxfHU/KKh9aKa/yWuZHa/LvQp51v9JAzjs9MgknbK57efBXc7i3QoB\nnxtFHb+nNwvt14hrZY8wPH54\n-----END PRIVATE KEY-----\n",
+  "client_email": "translate-naomi@nnietovega-sps-spring21.iam.gserviceaccount.com",
+  "client_id": "115870778938861864460",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/translate-naomi%40nnietovega-sps-spring21.iam.gserviceaccount.com"
+}
