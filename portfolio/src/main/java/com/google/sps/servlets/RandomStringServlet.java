@@ -21,6 +21,11 @@ public class RandomStringServlet extends HttpServlet {
     str.add("My favorite movie is the notebook");
     str.add("My favorite icecream is vanilla");
     str.add("I like playing voleyball");
+    str.add("I am 20 years old");
+    str.add("I have 3 pets: two rabbits and one dog");
+    str.add("I love chocolate");
+    str.add("I'm fan of asian food");
+    str.add("I like to travel and meet new people");
 
     String json = convertToJsonUsingGson(str);
     response.getWriter().println(json);
